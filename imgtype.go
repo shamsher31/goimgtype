@@ -2,13 +2,16 @@
 package imgtype // import "github.com/shamsher31/goimgtype"
 
 import (
+	"errors"
+	"github.com/shamsher31/goimgext"
 	"log"
 	"net/http"
 	"os"
+	"strings"
 )
 
 // Get returns the type of Image
-func Get(p string) string {
+func Get(p string) (string, error) {
 	file, err := os.Open(p)
 
 	if err != nil {
@@ -27,6 +30,14 @@ func Get(p string) string {
 
 	filetype := http.DetectContentType(buff)
 
-	return filetype
+	ext := imgext.Get()
+
+	for i := 0; i < len(ext); i++ {
+		if strings.Contains(ext[i], filetype[6:len(filetype)]) {
+			return filetype, nil
+		}
+	}
+
+	return "", errors.New("Invalid image type")
 
 }
