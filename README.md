@@ -1,6 +1,9 @@
 # goimgtype
 
 [![Godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/shamsher31/goimgtype)
+[![Build Status](https://travis-ci.org/shamsher31/goimgtype.svg)](https://travis-ci.org/shamsher31/goimgtype)
+[![GitHub release](http://img.shields.io/github/release/shamsher31/goimgtype.svg?style=flat-square)](release)
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](license)
 
 Return type of image based on mime type
 
