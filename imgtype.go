@@ -3,11 +3,12 @@ package imgtype // import "github.com/shamsher31/goimgtype"
 
 import (
 	"errors"
-	"github.com/shamsher31/goimgext"
 	"log"
 	"net/http"
 	"os"
 	"strings"
+
+	"github.com/shamsher31/goimgext"
 )
 
 // Get returns the type of Image
