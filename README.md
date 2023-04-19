@@ -1,6 +1,7 @@
 # goimgtype
 
 [![Godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/shamsher31/goimgtype)
+[![Go](https://github.com/shamsher31/goimgtype/actions/workflows/go.yml/badge.svg)](https://github.com/shamsher31/goimgtype/actions/workflows/go.yml)
 [![GitHub release](http://img.shields.io/github/release/shamsher31/goimgtype.svg?style=flat-square)](release)
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](license)
 
